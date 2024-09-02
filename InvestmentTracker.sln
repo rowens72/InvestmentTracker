@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentTracker.Server", "InvestmentTracker.Server\InvestmentTracker.Server.csproj", "{D1511FB3-8025-44A7-81FD-0549137CC752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentTracker.Server", "InvestmentTracker.Server\InvestmentTracker.Server.csproj", "{D1511FB3-8025-44A7-81FD-0549137CC752}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "investmenttracker.client", "investmenttracker.client\investmenttracker.client.esproj", "{4DE8C2FF-D3FF-4506-BC2A-B10069D7C4DF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "InvestmentTracker.Database", "InvestmentTracker.Database\InvestmentTracker.Database.sqlproj", "{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,12 @@ Global
 		{4DE8C2FF-D3FF-4506-BC2A-B10069D7C4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE8C2FF-D3FF-4506-BC2A-B10069D7C4DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4DE8C2FF-D3FF-4506-BC2A-B10069D7C4DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931CBE04-B7F7-4599-A2F1-440A6C1FA39A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
